@@ -1,1 +1,17 @@
-/*This is my unique style.css file*/
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  background-color: #1e1e1e;
+  padding: 20px;
+}
+
+h1 {
+  color: #32cd32;
+}

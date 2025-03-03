@@ -76,25 +76,58 @@ select {
 
 /*Media Query for screens that have a minimum width of 768px such as tablets in portrait mode*/
 @media screen and (min-width: 768px) {
-  .signup,
+  .signup-section,
   .about {
     width: 50%;
 	margin: auto;
+  }
+  
+  input,
+  select {
+    width: 70%;
+  }
+
+  .signup-button {
+    font-size:20px;
+    padding: 10px 20px;
   }
 }
 
 /*Media Query for screens with a minimum width of 992px such as tablets in landscape mode and small laptops*/
 @media screen and (min-width: 992px) {
-  .signup,
+  .signup-section,
   .about {
     width: 45%;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+
+  input,
+  select {
+    width: 60%;
   }
 }
 
 /*Media Query for screens with a minimum width of 1200px such as larger desktops and wide screens*/
 @media screen and (min-width: 1200px) {
-  .signup,
+  .signup-section,
   .about {
     width: 40%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  input,
+  select {
+    width: 50%;
+  }
+
+  .signup-button {
+    font-size: 22px;
+    padding: 12px 24px;
   }
 }

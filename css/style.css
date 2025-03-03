@@ -69,5 +69,32 @@ select {
 }
 
 .signup-button:hover { /*Did additional research on hovering techniques for a more professional look*/
-  background-color: #228b22; /*Dark Lime green when hovering over the sign up button
+  background-color: #228b22; /*Dark Lime green when hovering over the sign up button*/
+}
+
+/*Responsiveness Media Queries*/
+
+/*Media Query for screens that have a minimum width of 768px such as tablets in portrait mode*/
+@media screen and (min-width: 768px) {
+  .signup,
+  .about {
+    width: 50%;
+	margin: auto;
+  }
+}
+
+/*Media Query for screens with a minimum width of 992px such as tablets in landscape mode and small laptops*/
+@media screen and (min-width: 992px) {
+  .signup,
+  .about {
+    width: 45%;
+  }
+}
+
+/*Media Query for screens with a minimum width of 1200px such as larger desktops and wide screens*/
+@media screen and (min-width: 1200px) {
+  .signup,
+  .about {
+    width: 40%;
+  }
 }

@@ -1,33 +1,35 @@
+/*Lime Green, Grey, Black, and White are the main colors for the future Fiji logo*/
+
 body {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif; /*Font family from google fonts for professionalism*/
   background-color: #121212;
-  color: #ffffff;
+  color: #ffffff; /*White text color to complement dark background colors*/
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: center;/*General webpage text alignment will be centered unless otherwise noted with a more specific text alignment designation*/
 }
 
 .header {
-  background-color: #1e1e1e;
-  padding: 20px;
+  background-color: #1e1e1e;/*Grey background color*/
+  padding: 20px;/*Padding to help content not look squeezed by webpage borders*/
 }
 
 h1 {
-  color: #32cd32;
+  color: #32cd32; /*Lime Green color*/
 }
 
 .about {
-  background-color: #2e2e2e;
+  background-color: #2e2e2e; /*Light grey background color*/
   padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
+  margin: 20px; /*Margins to help about section be more seperated from other div tags*/
+  border-radius: 10px; /*Modern look*/
 }
 
 #beta-signup-form {
-  background-color: #ffffff;
+  background-color: #ffffff; /*Made background of form white so it is distinct*/
   padding: 20px;
   margin: 30px auto;
-  border-radius: 10px;
+  border-radius: 10px; /*Modern look*/
   width: 90%;
   max-width: 500px;
 }
@@ -38,11 +40,19 @@ h1 {
 .content-group,
 .email-group {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; /*Did online research on a CSS property that is professionally used*/
+  align-items: center; /*Did online research on a CSS property that is professionally used*/
   margin-bottom: 15px;
   font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #000000;
+  font-weight: bold;/*Bolding for emphasis when user is looking at form*/
+  color: #000000; /*Made label text black so it is readable*/
+}
+
+input,
+select {
+  width: 80%;
+  padding: 10px; /*Helping space out elements*/
+  border-radius: 4px; /*Modern look*/
+  background-color: #f0f0f0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;/*Redefining font family for redundancy purposes*/
 }

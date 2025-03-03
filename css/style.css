@@ -6,12 +6,12 @@ body {
   color: #ffffff; /*White text color to complement dark background colors*/
   margin: 0;
   padding: 0;
-  text-align: center;/*General webpage text alignment will be centered unless otherwise noted with a more specific text alignment designation*/
+  text-align: center; /*General webpage text alignment will be centered unless otherwise noted with a more specific text alignment designation*/
 }
 
 .header {
-  background-color: #1e1e1e;/*Grey background color*/
-  padding: 20px;/*Padding to help content not look squeezed by webpage borders*/
+  background-color: #1e1e1e; /*Grey background color*/
+  padding: 20px; /*Padding to help content not look squeezed by webpage borders*/
 }
 
 h1 {
@@ -44,7 +44,7 @@ h1 {
   align-items: center; /*Did online research on a CSS property that is professionally used*/
   margin-bottom: 15px;
   font-size: 16px;
-  font-weight: bold;/*Bolding for emphasis when user is looking at form*/
+  font-weight: bold; /*Bolding for emphasis when user is looking at form*/
   color: #000000; /*Made label text black so it is readable*/
 }
 
@@ -54,5 +54,20 @@ select {
   padding: 10px; /*Helping space out elements*/
   border-radius: 4px; /*Modern look*/
   background-color: #f0f0f0;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;/*Redefining font family for redundancy purposes*/
+  font-family: 'Inter', Arial, Helvetica, sans-serif; /*Redefining font family for redundancy purposes*/
+}
+
+.signup-button {
+  background-color: #32cd32; /*Lime Green for brand*/
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Inter', Arial, Helvetica, sans-serif; /*Font family redefined for redundancy*/
+  margin-top: 17px; /*Top-margin to space button out so it is more intruiging to user*/
+}
+
+.signup-button:hover { /*Did additional research on hovering techniques for a more professional look*/
+  background-color: #228b22; /*Dark Lime green when hovering over the sign up button
 }

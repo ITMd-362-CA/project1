@@ -1,1 +1,1 @@
-//This is my JavaScript file!
+//This is my JavaScript file

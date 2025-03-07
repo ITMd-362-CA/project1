@@ -6,22 +6,21 @@ body {
   color: #ffffff; /*White text color to complement dark background colors*/
   margin: 0;
   padding: 0;
-  text-align: center; /*General webpage text alignment will be centered unless otherwise noted with a more specific text alignment designation*/
 }
 
 .header {
-  background-color: #1e1e1e; /*Grey background color*/
   padding: 20px; /*Padding to help content not look squeezed by webpage borders*/
 }
 
 h1 {
   color: #32cd32; /*Lime Green color*/
-  font-size: 2rem; /*Implementing Major 6th Rule for font sizes*/
+  text-align: center;
 }
 
 .about {
   padding: 20px;
   font-size: 1.25rem;
+  text-align: center;
 }
 
 p {
@@ -34,6 +33,7 @@ p {
   margin: 20px auto;
   width: 90%;
   max-width: 400px;
+  float: left;
 }
 
 .firstname-group,
@@ -42,7 +42,6 @@ p {
 .content-group,
 .email-group {
   margin-bottom: 15px;
-  float: left;
 }
 
 label {
@@ -56,7 +55,6 @@ input,
 select {
   width: 80%;
   padding: 10px; /*Helping space out elements*/
-  border-radius: 4px; /*Modern look*/
   background-color: #f0f0f0;
   font-family: 'Inter', Arial, Helvetica, sans-serif; /*Redefining font family for redundancy purposes*/
   font-size: 1rem;

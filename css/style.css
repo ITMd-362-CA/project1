@@ -24,10 +24,14 @@ h1 {
   font-size: 1.25rem;
 }
 
+p {
+  margin: 10px;
+}
+
 #beta-signup-form {
   background-color: #ffffff; /*Made background of form white so it is distinct*/
-  padding: 20px;
-  margin: 30px auto;
+  padding: 15px;
+  margin: 20px auto;
   width: 90%;
   max-width: 400px;
 }
@@ -38,6 +42,7 @@ h1 {
 .content-group,
 .email-group {
   margin-bottom: 15px;
+  float: left;
 }
 
 label {

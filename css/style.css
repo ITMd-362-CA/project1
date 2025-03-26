@@ -160,16 +160,3 @@ select {
     align-items: center;
   }
 }
-
-/*Media Query for screens with a max width of 480px like much smaller screens*/
-@media screen and (max-width: 480px) {
-  .signup-section,
-  .about {
-    width: 90%;
-  }
-
-  input,
-  select {
-    width: 90%;
-  }
-}

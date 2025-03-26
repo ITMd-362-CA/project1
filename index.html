@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Join the Fiji streaming platform beta for exclusive access to next-gen livestreaming features.">
-  <title>Fiji Streaming Platform Beta Sign-Up</title>
-  <link rel="stylesheet" media="screen" href="css/meyers-normalize-and-reset-form.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap">
-  <link rel="stylesheet" media="screen" href="css/style.css">
-  <script src="js/script.js" async></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the Fiji streaming platform beta for exclusive access to next-gen livestreaming features.">
+    <title>Fiji Streaming Platform Beta Sign-Up</title>
+    <link rel="stylesheet" media="screen" href="css/meyers-normalize-and-reset-form.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <script src="js/script.js" async></script>
   </head>
+
   <body>
     <div class="header">
       <h1>Welcome to Fiji!</h1>
@@ -23,36 +24,36 @@
     <div class="signup-section">
       <form id="beta-signup-form" method="get" action="#" name="betaSignUpForm" autocomplete="on" onsubmit="return checkForm()">
         <div class="firstname-group">
-        <label for="first-name">First Name</label>
-		<input type="text" name="first-name" id="first-name" placeholder="John" required>
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name" placeholder="John" required>
         </div>
         <div class="lastname-group">
-		<label for="last-name">Last Name</label>
-        <input type="text" name="last-name" id="last-name" placeholder="Doe" required>
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" id="last-name" placeholder="Doe" required>
         </div>
         <div class="platform-group">
-		<label for="prev-plat">Previous Streaming Platform (If applicable)</label>
-        <input type="text" name="prev-plat" id="prev-plat" placeholder="Twitch, Kick, Rumble">
-		</div>
-        <div class="email-group">
-		<label for="email">Work Email</label>
-        <input type="email" name="email" id="email" placeholder="JohnDoe@gmail.com" required>
-		</div>
-        <div class="content-group">
-		<label for="content-type">What type of content do you mostly stream?</label>
-        <select id="content-type" name="content-type" required>
-          <!--Disabled section is needed as a placeholder. Had to do research to find specific syntax-->
-          <option value="" disabled selected>Select your content type</option>
-          <option value="gaming">Gaming</option>
-          <option value="chatting">Just Chatting</option>
-          <option value="irl">IRL</option>
-          <option value="music">Music</option>
-          <option value="sports">Sports</option>
-          <option value="other">Other</option>
-        </select>
+	  <label for="prev-plat">Previous Streaming Platform (If applicable)</label>
+          <input type="text" name="prev-plat" id="prev-plat" placeholder="Twitch, Kick, Rumble">
         </div>
-		<button type="submit" class="signup-button">Request Beta Access</button>
-	  </form>
+        <div class="email-group">
+	  <label for="email">Work Email</label>
+          <input type="email" name="email" id="email" placeholder="JohnDoe@gmail.com" required>
+        </div>
+        <div class="content-group">
+	  <label for="content-type">What type of content do you mostly stream?</label>
+          <select id="content-type" name="content-type" required>
+            <!--Disabled section is needed as a placeholder. Had to do research to find specific syntax-->
+            <option value="" disabled selected>Select your content type</option>
+            <option value="gaming">Gaming</option>
+            <option value="chatting">Just Chatting</option>
+            <option value="irl">IRL</option>
+            <option value="music">Music</option>
+            <option value="sports">Sports</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <button type="submit" class="signup-button">Request Beta Access</button>
+      </form>
     </div>
   </body>
 </html>
